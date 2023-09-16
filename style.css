@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Farro:wght@300&family=Glory:ital,wght@1,800&family=Rowdies:wght@700&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Farro:wght@300&family=Glory:ital,wght@1,800&family=Rowdies:wght@700&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Farro', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #48cfad;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 30px; 
+}
+.container .info h1{
+    font-family:'Rowdies', cursive;
+    color: #37bc9b;
+}
+.container .info p{
+    font-size: 15px;
+    color: #434a54;
+}
+.container form{
+    margin: 15px 0 25px;
+}
+.container form :where(input , button){
+    outline:0 ;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.container form input{
+    border: solid 1px #999;
+}
+.container form button{
+    background-color: #48cfad;
+    color: #fff;
+}
+.container .qr-code{
+    border: 1px solid  #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}

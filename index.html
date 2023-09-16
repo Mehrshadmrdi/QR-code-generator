@@ -8,7 +8,18 @@
 </head>
 <body>
     <div class="container">
-        
+        <div class="info">
+            <h1>Qr code generator</h1><br>
+            <p>Enter a text or url to make your own Qr code:</p>
+        </div>
+        <form>
+            <input type="text" placeholder="enter text or URL">
+            <button type="button">Generate QR code</button>
+        </form>
+        <div class="qr-code hidden">
+            <img src="images/download.png" alt="qr-code">
+        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
